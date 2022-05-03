@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+cmake_minimum_required( VERSION "3.1" )
 
 project(libnova)
 
@@ -69,5 +69,5 @@ include_directories(${libnova_SOURCE_DIR}/src)
 
 # traverse the sub directories
 add_subdirectory(src)
-add_subdirectory(lntest)
-add_subdirectory(examples)
+#add_subdirectory(lntest)
+#add_subdirectory(examples)

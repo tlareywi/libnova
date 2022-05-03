@@ -27,7 +27,9 @@
 #include <libnova/julian_day.h>
 #include <libnova/utility.h>
 
-#include "config.h"
+//#include "config.h"
+
+#define HAVE_ROUND 1
 
 #if !defined(__WIN32__) || defined(__MINGW__)
 #include <sys/time.h>
