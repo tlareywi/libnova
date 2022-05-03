@@ -1,4 +1,4 @@
-This is a fork of libNova, Celestial Mechanics Library, maintained for use as a git submodule and the CMake build system. Added a branch 'stable' which is paegged to the latest tag on the original repo as of 5-2-2022 (version 0.16), so parent projects can lock to a stable version. 
+This is a fork of libNova, Celestial Mechanics Library, maintained for use as a git submodule and the CMake build system. Added a branch 'stable' which is paegged to the latest tag on the original repo as of 5-2-2022 (version 0.16), so parent projects can lock to a stable version. The stable branch has examples and tests commented out of the build + some build issue fixes.
 
 Original repository; https://sourceforge.net/p/libnova/libnova
 
