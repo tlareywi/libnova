@@ -41,6 +41,7 @@ set(LIBRARY_PUBLIC_HEADERS
 add_library(${LIBRARY_NAME} 
   ${LIBRARY_PUBLIC_HEADERS}
 	julian_day.c
+	constellation.c
 	dynamical_time.c
 	sidereal_time.c
 	transform.c
@@ -73,6 +74,42 @@ add_library(${LIBRARY_NAME}
 	parallax.c
 	airmass.c
 	heliocentric_time.c
+	elp/elp10.c  
+	elp/elp12.c  
+	elp/elp14.c  
+	elp/elp16.c  
+	elp/elp18.c  
+	elp/elp2.c   
+	elp/elp21.c  
+	elp/elp23.c  
+	elp/elp25.c  
+	elp/elp27.c  
+	elp/elp29.c  
+	elp/elp30.c  
+	elp/elp32.c  
+	elp/elp34.c  
+	elp/elp36.c  
+	elp/elp5.c  
+	elp/elp7.c  
+	elp/elp9.c
+	elp/elp1.c  
+	elp/elp11.c  
+	elp/elp13.c 
+	elp/elp15.c  
+	elp/elp17.c  
+	elp/elp19.c  
+	elp/elp20.c  
+	elp/elp22.c  
+	elp/elp24.c  
+	elp/elp26.c  
+	elp/elp28.c  
+	elp/elp3.c   
+	elp/elp31.c  
+	elp/elp33.c  
+	elp/elp35.c  
+	elp/elp4.c   
+	elp/elp6.c  
+	elp/elp8.c
 )
 
 if(MSVC)
